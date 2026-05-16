@@ -1,14 +1,17 @@
-<div lang="cs">
+-<div lang="cs">
 
 # List Level Addon pro NVDA
 
 Tento doplněk vylepšuje čtení informací o seznamech v odečítači obrazovky NVDA.
+
+<section aria-label: "Funkce doplňku">
 
 ## Funkce
 - Čte počet zanořených seznamů (počet seznamů nad aktuální položkou).
 - Čte aktuální úroveň seznamu.
 - Čte počet položek v aktuální úrovni.
 - Možnost nastavení, co přesně má NVDA oznamovat.
+</section>
 
 ## Nastavení
 Nastavení najdete v menu NVDA -> Možnosti -> Nastavení -> kategorie **List Level Addon**.
@@ -20,6 +23,8 @@ Můžete si vybrat z těchto režimů:
 
 ## Klávesové zkratky
 - `NVDA+Alt+L`: Rychlé přepínání mezi režimy oznamování.
+
+<section aria-label "Návod na změnu klávesové zkratky">
 
 ## Změna klávesové zkratky
 
@@ -34,9 +39,14 @@ Můžete si vybrat z těchto režimů:
 9. Jakmile to zadáte, objeví se kontextová nabídka, která slouží na nastavení klávesové zkratky buď pro desktopové rozložení klávesnice, nebo všechna rozložení klávesnice (desktop i laptop rozložení klávesnice)
 10. Zvolte jednu z možností. Pak stiskněte `Enter` na tlačítku `OK` a dialog se zavře a uloží vaše provedené změny.
 
+</section>
+
+<section aria-label "Instalace do odečítače">
+
 ## Instalace
 1. Stáhněte soubor doplňku s příponou `.nvda-addon`.
 2. Spusťte jej a potvrďte instalaci do NVDA.
 3. Restartujte NVDA.
 
+</section>
 </div>

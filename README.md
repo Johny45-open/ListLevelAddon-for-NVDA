@@ -4,7 +4,7 @@
 
 Tento doplněk vylepšuje čtení informací o seznamech v odečítači obrazovky NVDA.
 
-<section aria-label: "Funkce doplňku">
+<section aria-label="Funkce doplňku">
 
 ## Funkce
 - Čte počet zanořených seznamů (počet seznamů nad aktuální položkou).
@@ -24,7 +24,7 @@ Můžete si vybrat z těchto režimů:
 ## Klávesové zkratky
 - `NVDA+Alt+L`: Rychlé přepínání mezi režimy oznamování.
 
-<section aria-label "Návod na změnu klávesové zkratky">
+<section aria-label="Návod na změnu klávesové zkratky">
 
 ## Změna klávesové zkratky
 
@@ -41,7 +41,7 @@ Můžete si vybrat z těchto režimů:
 
 </section>
 
-<section aria-label "Instalace do odečítače">
+<section aria-label="Instalace do odečítače">
 
 ## Instalace
 1. Stáhněte soubor doplňku s příponou `.nvda-addon`.

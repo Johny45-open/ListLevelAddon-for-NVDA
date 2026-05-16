@@ -1,5 +1,5 @@
 # List Level Addon pro NVDA
-
+<div lang="cs">
 Tento doplněk vylepšuje čtení informací o seznamech v odečítači obrazovky NVDA.
 
 ## Funkce
@@ -23,3 +23,5 @@ Můžete si vybrat z těchto režimů:
 1. Stáhněte soubor doplňku s příponou `.nvda-addon`.
 2. Spusťte jej a potvrďte instalaci do NVDA.
 3. Restartujte NVDA.
+
+</div>

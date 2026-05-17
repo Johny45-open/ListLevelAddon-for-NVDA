@@ -5,6 +5,7 @@
 Tento doplněk vylepšuje čtení informací o seznamech v odečítači obrazovky NVDA.
 
 <section role="region" aria-label="Funkce doplňku">
+<h2 id="hlavni-funkce">Funkce doplňku </h2>
 
 ## Funkce
 - Čte počet zanořených seznamů (počet seznamů nad aktuální položkou).
@@ -14,6 +15,7 @@ Tento doplněk vylepšuje čtení informací o seznamech v odečítači obrazovk
 </section>
 
 <section role="region" aria-label="Nastavení doplňku">
+<h2 id "nastaveni-doplnku>Nastavení doplňku</h2>
 
 ## Nastavení
 Nastavení najdete v menu NVDA -> Možnosti -> Nastavení -> kategorie **List Level Addon**.
@@ -29,6 +31,7 @@ Můžete si vybrat z těchto režimů:
 - `NVDA+Alt+L`: Rychlé přepínání mezi režimy oznamování.
 
 <section role="region" aria-label="Návod na změnu klávesové zkratky">
+<h2 id "zmena-klavesove-zkratky>Návod na změnu klávesové zkratky</h2>
 
 ## Změna klávesové zkratky
 

@@ -4,7 +4,7 @@
 
 Tento doplněk vylepšuje čtení informací o seznamech v odečítači obrazovky NVDA.
 
-<section role="region" aria-label="Funkce doplňku">
+<section role="region" aria-labelledby="Funkce doplňku">
 <h2 id="hlavni-funkce">Funkce doplňku </h2>
 
 ## Funkce
@@ -14,7 +14,7 @@ Tento doplněk vylepšuje čtení informací o seznamech v odečítači obrazovk
 - Možnost nastavení, co přesně má NVDA oznamovat.
 </section>
 
-<section role="region" aria-label="Nastavení doplňku">
+<section role="region" aria-labelledby="Nastavení doplňku">
 <h2 id "nastaveni-doplnku>Nastavení doplňku</h2>
 
 ## Nastavení
@@ -30,7 +30,7 @@ Můžete si vybrat z těchto režimů:
 ## Klávesové zkratky
 - `NVDA+Alt+L`: Rychlé přepínání mezi režimy oznamování.
 
-<section role="region" aria-label="Návod na změnu klávesové zkratky">
+<section role="region" aria-labelledby="Návod na změnu klávesové zkratky">
 <h2 id "zmena-klavesove-zkratky>Návod na změnu klávesové zkratky</h2>
 
 ## Změna klávesové zkratky
@@ -48,7 +48,7 @@ Můžete si vybrat z těchto režimů:
 
 </section>
 
-<section role="region" aria-label="Instalace do odečítače">
+<section role="region" aria-labelledby="Instalace do odečítače">
 
 ## Instalace
 1. Stáhněte soubor doplňku s příponou `.nvda-addon`.

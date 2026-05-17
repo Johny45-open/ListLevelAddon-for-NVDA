@@ -4,7 +4,7 @@
 
 Tento doplněk vylepšuje čtení informací o seznamech v odečítači obrazovky NVDA.
 
-<section aria-label="Funkce doplňku">
+<section role="region" aria-label="Funkce doplňku">
 
 ## Funkce
 - Čte počet zanořených seznamů (počet seznamů nad aktuální položkou).
@@ -12,6 +12,8 @@ Tento doplněk vylepšuje čtení informací o seznamech v odečítači obrazovk
 - Čte počet položek v aktuální úrovni.
 - Možnost nastavení, co přesně má NVDA oznamovat.
 </section>
+
+<section role="region" aria-label="Nastavení doplňku">
 
 ## Nastavení
 Nastavení najdete v menu NVDA -> Možnosti -> Nastavení -> kategorie **List Level Addon**.
@@ -21,10 +23,12 @@ Můžete si vybrat z těchto režimů:
 2. **Jen úrovně**: Oznamuje pouze úroveň (např. "úroveň 2").
 3. **Všechno**: Oznamuje seznam, úroveň i počet položek v této úrovni.
 
+</section>
+
 ## Klávesové zkratky
 - `NVDA+Alt+L`: Rychlé přepínání mezi režimy oznamování.
 
-<section aria-label="Návod na změnu klávesové zkratky">
+<section role="region" aria-label="Návod na změnu klávesové zkratky">
 
 ## Změna klávesové zkratky
 
@@ -41,7 +45,7 @@ Můžete si vybrat z těchto režimů:
 
 </section>
 
-<section aria-label="Instalace do odečítače">
+<section role="region" aria-label="Instalace do odečítače">
 
 ## Instalace
 1. Stáhněte soubor doplňku s příponou `.nvda-addon`.

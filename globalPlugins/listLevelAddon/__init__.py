@@ -9,6 +9,7 @@ import addonHandler
 import logHandler
 import gettext
 import core
+import io
 
 # Inicializace překladů pro doplněk
 _ = gettext.gettext
@@ -171,7 +172,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
         super(GlobalPlugin, self).__init__()
         addonHandler.initTranslation()
         logHandler.log.info("ListLevelAddon: Inicializace doplňku")
-        config.conf.spec["listLevelAddon"] = config.ConfigObj(confspec.splitlines(), encoding="utf-8", interpolation=False)
+        config.conf.spec["listLevelAddon"] = config.ConfigObj(
+            io.StringIO(confspec), encoding="utf-8", list_values=False, interpolation=False, default_encoding="utf-8"
+        )
         
         try:
             if ListLevelSettingsPanel not in NVDASettingsDialog.categoryClasses:

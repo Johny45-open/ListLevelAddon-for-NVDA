@@ -14,6 +14,7 @@
         <li>Čte aktuální úroveň seznamu.</li>
         <li>Čte počet položek v aktuální úrovni.</li>
         <li>Možnost nastavení, co přesně má NVDA oznamovat.</li>
+        <li><strong>Nové v 1.2:</strong> Oznamování celkového počtu úrovní v režimu prohlížení – při vstupu do seznamu oznámí např. „Seznam, 3 úrovně.“</li>
     </ul>
 
     <h2>Nastavení doplňku</h2>
@@ -24,6 +25,14 @@
         <li><strong>Jen úrovně</strong>: Oznamuje pouze úroveň (např. "úroveň 2").</li>
         <li><strong>Všechno</strong>: Oznamuje seznam, úroveň i počet položek v této úrovni.</li>
     </ol>
+    <h3>Režim prohlížení – celkový počet úrovní</h3>
+    <p>V témže panelu je nová volba:</p>
+    <ul>
+        <li><strong>Oznamovat celkový počet úrovní v režimu prohlížení (při vstupu do seznamu)</strong> – výchozí vypnuto.</li>
+    </ul>
+    <p>Je-li zapnuto, doplněk v Browse Mode (webové stránky, HTML dokumenty, Word s Browse Mode) při <em>vstupu</em> do seznamu jednou oznámí celkový počet úrovní, např. „Seznam, 3 úrovně.“ Poté pokračuje standardní logika bez opakování. Hlášení se neopakuje při pohybu uvnitř téhož seznamu, při šipkování ani při pohybu mezi úrovněmi. Při přechodu do jiného seznamu se oznámí znovu. Pokud dokument neposkytuje spolehlivou strukturu, doplněk nic neoznámí.</p>
+    <p><strong>Podporovaná prostředí:</strong> Firefox, Chrome, Edge, Brave (Chromium), HTML; částečně Word (Browse Mode). V objektovém/Focus režimu zůstává chování beze změny.</p>
+    <p><strong>Limity:</strong> Počet je určen ze skutečné struktury (ROLE_LIST hierarchie / ControlField level), ne heuristikou odsazení. Pokud NVDA strukturu neposkytuje, doplněk ji neodhaduje.</p>
 
     <h2>Klávesové zkratky</h2>
     <ul>
